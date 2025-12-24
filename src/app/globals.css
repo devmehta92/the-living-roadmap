@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  color: #0f172a;
+  color: theme('colors.neutral.800');
+  background-color: theme('colors.neutral.100');
 }
 
 @layer utilities {
